@@ -1,0 +1,68 @@
+body{background-color: #f5f5dc; font-family: Arial, sans-serif; margin: 0; padding: 0;}
+h1{font-family: "Italianno", cursive, serif; color: #000000; font-size: 64px; text-align: left; margin-top: 20px;}
+h2{font-family: "Inknut Antiqua", serif; color: #000000; font-size: 48px; margin-top: 20px;}
+nav{margin-top: 10px; text-align: center; font-size: 24px;}
+nav a{color: #000000; font-family: "Judson", serif; font-size: 24px; text-decoration: none; margin: 0 10px;}
+a{font-family: "Nerko One", cursive; font-size: 32px; text-align: center;}
+h3{font-family: "Noto Sans JP", sans-serif; color: #000000; font-size: 32px; margin-top: 15px;}
+p{font-family: "Noto Sans JP", sans-serif; font-size: 16px; line-height: 1.5; margin: 10px 20px;}
+form{margin: 20px; text-align: center;}
+label{display: block; margin-bottom: 5px; font-size: 16px;}
+input[type="text"], input[type="email"], textarea{width: 60%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;}
+input[type="submit"]{background-color: #8b0000; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;}
+input[type="submit"]:hover{background-color: #a52a2a;}
+.news-title{font-size: 40px; color: #EE1818; margin-top: 20px;}
+header{display: flex; gap:50px; align-items: center; justify-content: space-between; padding: 10px 20px; background-color: #f5f5dc;}
+.menu-section{display: flex; justify-content: space-between; width: 100%; height: 100%;}
+.menu-description{ flex: 1; font-size: 16px; line-height: 1.5; width: 50%; padding: 10px 250px; margin-top: 160px; margin-right: 120px;}
+.menu-image{flex: 1; width: 1200px; display: block; margin-right: 50px;}
+.title{font-family: "Instrument Sans", serif; font-size: 48px; color: #000000; margin-top: 40px; align-items: center; text-align: center;}
+.more{display: inline-block; border: 1px solid #000; padding: 10px 30px;  background-color: #EAEA9C; text-decoration: none; margin-top: 20px;}
+.menu-box{text-align: center;}
+.dates{font-size: 32px; font-family: "Noto Sans JP", sans-serif; align-items: center; text-align: center; margin-top: 20px; padding: 0 20px;}
+.text{font-size: 32px; font-family: "Noto Sans JP", sans-serif; align-items: center; text-align: center; margin-top: 20px;padding: 30px 80px;}
+.news-section{display: flex; flex-direction: column; margin-bottom: 20px; padding: 20px; border: 1px solid #ccc; border-radius: 4px; background-color: #f9f9f9;  width: 80%; margin: 0 auto; margin-top: 20px;}
+iframe{width: 60%; height: 500px; margin-top: 20px; display: block; margin: 0 auto;}
+.text-description{font-size: 24px; font-family: "Noto Sans JP", sans-serif; align-items: center; text-align: center; margin-top: 30px;}
+.store{display: flex; justify-content: center; align-items: center; text-align: center; margin-top: 20px;}
+.app{ display: flex; flex-direction: column; align-items: center; text-align: center; margin-top: 20px; gap: 20px;}
+.img{width: 32px; height: 32px; object-fit: cover;}
+.info{ font-family: "Noto Sans JP", sans-serif; font-size: 16px; line-height: 1.5; margin: 10px 20px; width:28%;  margin: 100px;}
+.concept-p{font-family: "Noto Sans JP", sans-serif; font-size: 24px; line-height: 1.5; margin: 10px 20px; width: 80%; margin: 0 auto; margin-top: none;}
+.concept-image{display: flex; justify-content: center; align-items: center; text-align: center; margin: 0 auto; margin-top: 100px; margin-bottom: 100px; gap: 20px; height: 500px;  max-width: 1000px;}
+.concept-image2{display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;  gap: 20px; width: 50%; height: 500px; object-fit: cover;}
+.concept-leaf2{width: 100%; max-width: 600px; display: block; margin: 0 auto;}
+.concept-big{width:50%; height: 500px; display: block; margin: 0 auto; object-fit: cover; margin-right: 20px;}
+.concept-image2 img{width: 100%; height: calc(50% - 10px); object-fit: cover;}
+.bean-cluster{position: relative; width: 80px; height: 80px}
+.bean{position: absolute}
+.big-bean{top: 50px; left: 70px; width: 45px;}
+.small-bean1{top: 90px; left: 98px; width: 25px;}
+.small-bean2{top: 70px; left: 120px; width: 20px;}
+.menu-card{max-width: 600px; margin: 0 auto; padding: 40px; border: 1px solid #ccc; background: #EFD386;}
+.menu-section h2{text-align: center; letter-spacing: 4px; margin-bottom: 20px; width: 100%; font-family: "Inknut Antiqua", sans-serif;}
+.menu-section ul{list-style: none; padding: 0;}
+.menu-section li{display: flex; justify-content: space-between; max-width: 300px; margin: 0 auto;}
+.menu-text{display: flex;}
+.access-p{text-align: center;}
+.contact-title{text-align: center; font-family:"Noto Sans JP", sans-serif; font-size: 32px;}
+.menu-section{display: flex; flex-direction: column;}
+.contact-p{font-family: "Noto Sans Jp", sans-serif; font-size: 20px; text-align: center; margin-bottom: 50px;}
+.news-title{text-align: center;}
+.news-p{text-align: center;}
+.date{text-align: center;}
+
+
+
+@media(max-width: 768px){flex-direction: column;}
+
+
+
+
+
+
+
+
+
+
+
